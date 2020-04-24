@@ -6,7 +6,7 @@ const char* pass = "";
 const char* ip = "";
 
 void setup() {
-  Serial.begin(1);                 //Serial connection
+  Serial.begin(115200);                 //Serial connection
   WiFi.begin(ssid, pass);   //WiFi connection
  
   while (WiFi.status() != WL_CONNECTED) {  //Wait for the WiFI connection completion
