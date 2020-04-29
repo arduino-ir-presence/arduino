@@ -1,7 +1,7 @@
 #include <ESP8266HTTPClient.h>
 #include <ESP8266WiFi.h>
 
-int ledPin = 13;                // LED 
+int ledPin = LED_BUILTIN;                // LED 
 int pirPin = 14;                 // PIR Out pin 
 int pirStat = 0;                   // PIR status
 
