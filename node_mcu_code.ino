@@ -2,7 +2,7 @@
 #include <ESP8266WiFi.h>
 
 int ledPin = LED_BUILTIN;                // LED 
-int pirPin = 14;                 // PIR Out pin 
+int pirPin = 14;                    // PIR IN pin 
 int pirStat = 0;                   // PIR status
 
 const char* ssid = ""; 
