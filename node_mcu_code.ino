@@ -5,9 +5,9 @@ int ledPin = 13;                // LED
 int pirPin = 14;                 // PIR Out pin 
 int pirStat = 0;                   // PIR status
 
-const char* ssid = "theknees"; 
-const char* pass = "kneetime";
-const char* url = "http://192.168.86.34:8000/";
+const char* ssid = ""; 
+const char* pass = "";
+const char* url = "";
     
 void setup() {
  pinMode(LED_BUILTIN, OUTPUT);     
